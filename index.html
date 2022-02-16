@@ -24,12 +24,12 @@
 
 
 <body>
-    <!--INICIO NAVBAR-->
-    <nav class="navbar navbar-expand-lg navbar-light bg-white navbar fixed-top border-bottom border-2 border-dark" >
+    <!--INICIO HEADER-->
+    <nav class="navbar navbar-expand-lg navbar-light bg-white navbar fixed-top border-bottom border-2 border-dark pt-3 pb-3" >
         <div class="container-fluid ubicacion-navbar">
 
           <!--Logo-->
-          <a class="navbar-brand" href="index.html">
+          <a class="navbar-brand pb-3" href="index.html">
             <img class="container" src="Archivos-multimedia/logo-catenna-header.png" alt="">
           </a>
           <!--Fin Logo-->
@@ -44,17 +44,17 @@
           <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav me-auto mb-2 mb-lg-0 ">
 
-              <li class="nav-item border-bottom border-dark border-2">
+              <li class="nav-item border-bottom border-dark border-2 header-hover fw-bold">
                 <a class="nav-link active text-dark" aria-current="page" href="index.html">INICIO</a>
               </li>
 
-              <li class="nav-item dropdown">
+              <li class="nav-item dropdown header-hover">
                 <a class="nav-link dropdown-toggle text-dark" href="productos.html" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">PRODUCTOS</a>
 
                 <!--Menu desplegable productos-->
                 <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
 
-                    <li><a class="dropdown-item" href="#">Mochila</a></li>
+                    <li><a class="dropdown-item " href="#">Mochila</a></li>
 
                     <li><hr class="dropdown-divider"></li>
 
@@ -80,16 +80,16 @@
                  <!--Fin Menu desplegable productos-->
 
                 </li>
-                <li class="nav-item">
+                <li class="nav-item header-hover">
                   <a class="nav-link text-dark" href="../Proyecto-Catenna/index.html #Tips">TIPS</a>
                 </li>
 
               </li>
-              <li class="nav-item">
+              <li class="nav-item header-hover">
                 <a class="nav-link text-dark" href="sobrecatenna.html">SOBRE CATENNA</a>
               </li>
 
-              <li class="nav-item">
+              <li class="nav-item header-hover">
                 <a class="nav-link text-dark" href="Contacto.html">CONTACTO</a>
               </li>
 
@@ -99,22 +99,45 @@
 
         </div>
       </nav>
-<!--FIN NAVBAR-->
+<!--FIN HEADER-->
 
 
     <!--INICIO SECCION 1: Banner principal-->
 
-            <div class="position">
-                <img
-                class="imagen" src="Archivos-multimedia/banner-inicio-1.jpg" alt="Banner Inicio">
+      <!--Carrousel banner-->
 
-                    <div class="boton-ver-productos">
-                        <!--Boton ver productos-->
-                        <h3>
-                            <a class="tipografia-boton" 
-                            href="productos.html">Ver productos</a>
-                        </h3>
-                    </div> 
+            <div id="carouselExampleControls" class="carousel slide margin-banner-carrusel" data-bs-ride="carousel">
+
+                <div class="carousel-inner">
+                        
+                        <div class="carousel-item active posicion-boton">
+                            <!--Banner imagen 1-->
+                            <img src="Archivos-multimedia/banner-inicio-1.jpg" class="d-block w-100" alt="...">
+
+                            <!--Boton ver productos-->
+                            <a href="productos.html" class="w-100">
+                                <div class="d-grid gap-2 col-1 mx-auto boton-ver-productos">
+                                    <button class="btn btn-dark bg-color w-100" type="button">VER PRODUCTOS</button>
+                                </div>
+                            </a>
+                        </div>
+
+                        <!--Banner imagen 1-->
+                        <div class="carousel-item">
+                                <img src="Archivos-multimedia/banner-inicio-2.jpg"   class="d-block w-100" alt="...">
+                        </div>
+                </div>
+
+                <!--controladores banner-->
+                <button class="carousel-control-prev" type="button"         data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon"aria-hidden="true"></span>
+                        <span class="visually-hidden ">Previous</span>
+                </button>
+
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
             </div>
 
     <!--FIN SECCION 1: banner principal-->

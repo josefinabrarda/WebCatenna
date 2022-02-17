@@ -511,6 +511,10 @@ width: 100%;
 width: 100%;
 }
 
+#foto-miniatura {
+    margin-top: 1px;
+}
+
 /*inicio iconos colores*/
 
 .grupo-colores {

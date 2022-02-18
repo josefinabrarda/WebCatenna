@@ -76,17 +76,16 @@ font-family: "Roboto-bold";
 /*Boton Ver productos*/
 .boton-ver-productos {
     position:absolute;
-    top:54%;
-    left:54%;
+    top:50%;
+    left:56%;
+}
+
+.boton-ver-productos:hover {
+    transform: scale(1.05);
 }
 
 .medida-boton {
     font-size: 1vw;
-}
-
-
-.boton-ver-productos:hover {
-    transform: scale(1.05);
 }
 
 

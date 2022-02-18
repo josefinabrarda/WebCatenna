@@ -700,6 +700,10 @@ align-items: center;
     margin-right:0px;
 }
 
+.btn-escondido {
+    visibility: hidden;
+}
+
 /*SECCION COMPRA QUERYS*/
 .grid-general {
     width: 80%;

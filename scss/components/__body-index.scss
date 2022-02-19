@@ -200,6 +200,13 @@
         grid-template-rows: repeat(8, 1/2fr);
         font-size: 0.9em;
         }
+
+        @media screen and (min-width: 481px) and (max-width: 990px) {
+        width: 80%;
+        grid-template-columns:repeat(2, 1fr);
+        grid-template-rows: repeat(3, 1fr);
+        font-size: 0.9em;
+        }
 }
 
 .item-tip {
@@ -208,4 +215,13 @@
 
 .banner-tip {
     width: 100%;
+
+    @media screen and (max-width: 480px) {
+        width: 100%;
+
+        }
+
+        @media screen and (min-width: 481px) and (max-width: 990px) {
+        width: 100%;
+        }
 }

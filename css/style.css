@@ -45,6 +45,12 @@ nav div ul li a:hover {
   right: 2em;
   bottom: 2.5em;
 }
+@media screen and (max-width: 480px) {
+  .position-whatsapp {
+    right: 1em;
+    bottom: 1em;
+  }
+}
 
 /*seguinos en las redes*/
 .titulo-footer {
@@ -53,6 +59,18 @@ nav div ul li a:hover {
   margin-bottom: 15px;
   text-align: center;
   font-size: 1em;
+}
+@media screen and (max-width: 480px) {
+  .titulo-footer {
+    font-size: 0.8em;
+    margin: 0;
+    padding-bottom: 25px;
+  }
+}
+@media screen and (min-width: 481px) and (max-width: 990px) {
+  .titulo-footer {
+    font-size: 1em;
+  }
 }
 
 /*icono instagram y facebook*/
@@ -63,6 +81,31 @@ nav div ul li a:hover {
 
 .item-footer {
   padding-right: 15px;
+}
+@media screen and (max-width: 480px) {
+  .item-footer {
+    padding-right: 0px;
+    width: 50%;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .item-whatsapp {
+    display: flex;
+    justify-content: flex-end;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .item-whatsapp-size {
+    width: 50%;
+  }
+}
+
+@media screen and (min-width: 481px) and (max-width: 990px) {
+  .icono-whatsapp-resize {
+    width: 30%;
+  }
 }
 
 /*INICIO SECCION 1*/
@@ -263,6 +306,14 @@ nav div ul li a:hover {
     font-size: 0.9em;
   }
 }
+@media screen and (min-width: 481px) and (max-width: 990px) {
+  .grid-tip {
+    width: 80%;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    font-size: 0.9em;
+  }
+}
 
 .item-tip {
   padding: 10px 0;
@@ -270,6 +321,16 @@ nav div ul li a:hover {
 
 .banner-tip {
   width: 100%;
+}
+@media screen and (max-width: 480px) {
+  .banner-tip {
+    width: 100%;
+  }
+}
+@media screen and (min-width: 481px) and (max-width: 990px) {
+  .banner-tip {
+    width: 100%;
+  }
 }
 
 /*# sourceMappingURL=style.css.map */

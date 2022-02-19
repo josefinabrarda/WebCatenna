@@ -1,3 +1,6 @@
+@import "../base/variables.scss";
+
+
 nav {
         div {
             display: flex;
@@ -18,8 +21,10 @@ nav {
                 div {
                     ul {
                         li {
-                            transition: all 0s;
-                            &:hover {font-family: "Roboto-bold";
+                            a {
+                                transition: all 0s;
+                                &:hover {font-family:"Roboto-bold";
+                            }
                         }
                     }
                 }

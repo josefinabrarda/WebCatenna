@@ -1,0 +1,136 @@
+@import "../base/variables.scss";
+
+
+
+
+
+
+
+.margin-banner-carrusel {
+    margin-top: 100px;
+}
+
+.posicion-boton {
+    position: relative;
+}
+
+/*Boton Ver productos*/
+.boton-ver-productos {
+    position:absolute;
+    top:50%;
+    left:56%;
+}
+
+.boton-ver-productos:hover {
+    transform: scale(1.05);
+}
+
+.medida-boton {
+    font-size: 1vw;
+}
+
+
+/*FIN SECCION1*/
+
+
+/*INICIO SECCION 2*/
+
+#Seccion-2 {
+    display: flex;
+    justify-content: center;
+    margin: 40px 0;
+}
+
+
+.bloque-fotos {
+    width: 60%;
+   display: flex;
+   justify-content: center;
+   flex-direction: row;
+}
+
+.contenedor-item {
+    display: flex;
+    justify-content: center;
+}
+
+.item-foto {
+    margin-right: 20px;
+    border-radius: 1em;
+}
+
+ 
+/*FIN SECCION 2*/
+
+
+/*INICIO SECCION 3*/
+
+/*como comprar*/
+
+.section-compra {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    background-color:rgb(236, 236, 236);
+    padding-bottom: 20px;
+    padding-top: 30px;
+}
+
+.grid-general {
+    width: 60%;
+    display: grid;
+    grid-template-columns:1fr ;
+    grid-template-rows: 1/2fr;
+    gap: 20px 0;
+    text-align: center;
+}
+
+.grid-compra {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 30px
+}
+
+.grid-pago {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.item-compra {
+    border-right: var(--Border-1);
+    border-left: var(--Border-1);
+    padding: 0 20px;
+    }
+
+
+/*FIN SECCION 3*/
+
+
+/*INICIO SECCION 4 TIPS*/
+
+/*Banner*/
+
+#Tips-section {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-top: 50px;
+}
+
+.grid-tip {
+    width: 60%;
+    display: grid;
+    grid-template-columns:repeat(4, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    grid-gap: 40px 35px;
+    margin: 50px 0;
+    text-align: center;
+}
+
+.item-tip {
+    padding: 10px 0;
+}
+
+.banner-tip {
+    width: 100%;
+}

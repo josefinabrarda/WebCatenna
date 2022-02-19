@@ -1,0 +1,40 @@
+@import "../base/variables.scss";
+
+
+#footer {
+    width: 100%;
+    background-color:$background-negro;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+
+/*icono whatsapp*/
+.position-whatsapp {
+    position: fixed;
+    right:2em ;
+    bottom:2.5em;
+}
+
+/*seguinos en las redes*/
+.titulo-footer {
+    display: flex;
+    color:$tipografia-blanca;
+    margin-bottom: 15px;
+    text-align: center;
+    font-size:$font-size-1;
+       }
+
+ /*icono instagram y facebook*/
+ .bloque-footer {
+     display: flex;
+     justify-content: center;
+ }
+
+ .item-footer {
+     padding-right: 15px;
+ }

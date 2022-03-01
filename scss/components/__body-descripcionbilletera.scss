@@ -1,0 +1,115 @@
+@import "../base/variables.scss";
+
+#section-descripcion-producto {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 200px;
+    }
+    
+    .texto-descripcion {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin: 20px 0;
+    }
+    
+    .grid-descripcion-producto {
+    width: 40%;
+    display: grid;
+    grid-template-columns: 0.2fr 1fr;
+    grid-template-rows:1fr;
+    row-gap: 30px;
+    column-gap: 20px;
+    }
+    
+    .foto-descripcion {
+    width: 100%;
+    }
+    
+    .foto-descripcion-1 {
+    width: 100%;
+    }
+    
+    /*inicio iconos colores*/
+    
+    .grupo-colores {
+    display: flex;
+    justify-content: center;
+    }
+    .colores-selector {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 30px 0;
+    }
+    
+    .circulo-1 {
+    background-color: rgba(174, 142, 123, 1);
+    width: 2em;
+    height: 2em;
+    border-radius: 50%;
+    border: var(--Border-1);
+    transition: all 0.5s;
+    }
+    
+    .circulo-2 {
+    background-color:rgba(200, 47, 58, 1);
+    width: 2em;
+    height: 2em;
+    border-radius: 50%;
+    margin: 0 20px;
+    transition: all 0.5s;
+    }
+    
+    .circulo-3 {
+    background-color: black;
+    width: 2em;
+    height: 2em;
+    border-radius: 50%;
+    transition: all 0.5s;
+    }
+    
+    /*animaciones*/
+    .circulo-1:hover, .circulo-2:hover, .circulo-3:hover, .boton-comprar:hover, .foto-descripcion:hover {
+    transform: scale(1.2);
+    }
+    
+    /*fin iconos colores*/
+    /*Fin corousel*/
+    
+    /*Inicio descripcion de producto*/
+    
+    .boton-comprar {
+    background-color: var(--background-negro);
+    color: var(--Tipografia-blanca);
+    border-radius: 0.6vw;
+    padding: 0.5vw;
+    display: flex;
+    justify-content: center;
+    width: 30%;
+    margin: 15px 0;
+    transition: all 0.5s;
+    }
+    
+    
+    .caracteristicas {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    }
+    
+    
+    .caracteristicas-pago {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin-bottom: 30px;
+    }

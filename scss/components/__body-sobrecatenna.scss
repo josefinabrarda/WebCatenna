@@ -398,3 +398,18 @@
     top: 300%;
     }
 }
+
+.position-conocenos {
+    @media screen and (max-width: 480px) {
+        position: none;
+    display: flex;
+    flex-direction: row;
+    }
+
+    @media screen and (min-width: 481px) and (max-width: 990px) {
+        position: none;
+        display: flex;
+        flex-direction: row;
+    }
+
+}

@@ -111,6 +111,14 @@ nav div ul li a:hover {
   font-family: "Roboto-bold";
 }
 
+@media screen and (min-width: 481px) and (max-width: 990px) {
+  .ubicacion-navbar {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+  }
+}
+
 /*INICIO SECCION 1*/
 /*Banner*/
 .margin-banner-carrusel {
@@ -126,6 +134,11 @@ nav div ul li a:hover {
   position: absolute;
   top: 50%;
   left: 56%;
+}
+@media screen and (max-width: 480px) {
+  .boton-ver-productos {
+    visibility: hidden;
+  }
 }
 
 .boton-ver-productos:hover {
@@ -753,6 +766,21 @@ nav div ul li a:hover {
   }
 }
 
+@media screen and (max-width: 480px) {
+  .position-conocenos {
+    position: none;
+    display: flex;
+    flex-direction: row;
+  }
+}
+@media screen and (min-width: 481px) and (max-width: 990px) {
+  .position-conocenos {
+    position: none;
+    display: flex;
+    flex-direction: row;
+  }
+}
+
 #section-contacto {
   display: flex;
   justify-content: center;
@@ -891,6 +919,11 @@ nav div ul li a:hover {
   align-items: center;
   width: 100%;
 }
+@media screen and (max-width: 480px) {
+  #section-productos {
+    margin-top: 230px;
+  }
+}
 
 .titulo-productos {
   margin-bottom: 30px;
@@ -904,6 +937,24 @@ nav div ul li a:hover {
   gap: 30px;
   margin-bottom: 50px;
   justify-content: center;
+}
+@media screen and (min-width: 481px) and (max-width: 990px) {
+  .grid-section-productos {
+    width: 70%;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    gap: 30px;
+    margin-bottom: 50px;
+    justify-content: center;
+  }
+}
+@media screen and (max-width: 480px) {
+  .grid-section-productos {
+    width: 70%;
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(6, 1fr);
+  }
 }
 
 .item-seccion-productos {
@@ -954,13 +1005,43 @@ nav div ul li a:hover {
   row-gap: 30px;
   column-gap: 20px;
 }
+@media screen and (max-width: 480px) {
+  .grid-descripcion-producto {
+    width: 80%;
+    grid-template-columns: 1fr;
+  }
+}
+@media screen and (min-width: 481px) and (max-width: 990px) {
+  .grid-descripcion-producto {
+    width: 100%;
+    grid-template-columns: 0.8fr;
+    justify-content: center;
+    align-items: center;
+  }
+}
 
 .foto-descripcion {
   width: 100%;
 }
+@media screen and (max-width: 480px) {
+  .foto-descripcion {
+    width: 50%;
+    margin-bottom: 5px;
+  }
+}
+@media screen and (min-width: 481px) and (max-width: 990px) {
+  .foto-descripcion {
+    width: 90%;
+  }
+}
 
 .foto-descripcion-1 {
   width: 100%;
+}
+@media screen and (max-width: 480px) {
+  .foto-descripcion-1 {
+    width: 100%;
+  }
 }
 
 /*inicio iconos colores*/
@@ -1020,6 +1101,13 @@ nav div ul li a:hover {
   width: 30%;
   margin: 15px 0;
   transition: all 0.5s;
+}
+@media screen and (max-width: 480px) {
+  .boton-comprar {
+    width: 80%;
+    font-size: smaller;
+    padding: 5px 0;
+  }
 }
 
 .caracteristicas {

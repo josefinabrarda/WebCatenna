@@ -1,6 +1,15 @@
 @import "../base/variables.scss";
 
 
+.ubicacion-navbar {
+    @media screen and (min-width: 481px) and (max-width: 990px) {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+    }
+}
+
+
 /*INICIO SECCION 1*/
 /*Banner*/
 .margin-banner-carrusel {
@@ -16,6 +25,10 @@
     position:absolute;
     top:50%;
     left:56%;
+
+        @media screen and (max-width: 480px) {
+        visibility: hidden;
+        }
 }
 
 .boton-ver-productos:hover {

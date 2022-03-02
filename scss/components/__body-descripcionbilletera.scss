@@ -24,14 +24,41 @@
     grid-template-rows:1fr;
     row-gap: 30px;
     column-gap: 20px;
+
+    @media screen and (max-width: 480px) {
+        width: 80%;
+        grid-template-columns: 1fr;
+    }
+
+    @media screen and (min-width: 481px) and (max-width: 990px) {
+        width: 100%;
+        grid-template-columns: 0.8fr;
+        justify-content: center;
+        align-items: center;
+    }
     }
     
+
     .foto-descripcion {
     width: 100%;
+
+    @media screen and (max-width: 480px) {
+        width: 50%;
+        margin-bottom: 5px;
+    }
+
+    @media screen and (min-width: 481px) and (max-width: 990px) {
+        width: 90%;
+    }
     }
     
     .foto-descripcion-1 {
     width: 100%;
+
+    @media screen and (max-width: 480px) {
+        width: 100%;
+    }
+
     }
     
     /*inicio iconos colores*/
@@ -40,6 +67,7 @@
     display: flex;
     justify-content: center;
     }
+
     .colores-selector {
     display: flex;
     justify-content: center;
@@ -93,6 +121,12 @@
     width: 30%;
     margin: 15px 0;
     transition: all 0.5s;
+
+    @media screen and (max-width: 480px) {
+        width: 80%;
+        font-size: smaller;
+        padding: 5px 0;
+    }
     }
     
     

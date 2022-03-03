@@ -1,6 +1,18 @@
 @font-face {
   font-family: Roboto-regular;
-  src: url("Roboto/Roboto-Regular.ttf");
+  src: url("../../Roboto/Roboto-Regular.ttf");
+}
+@font-face {
+  font-family: Roboto-bold;
+  src: url("../Roboto/Roboto-Bold.ttf");
+}
+@font-face {
+  font-family: Roboto-regular;
+  src: url("../../Roboto/Roboto-Regular.ttf");
+}
+@font-face {
+  font-family: Roboto-bold;
+  src: url("../Roboto/Roboto-Bold.ttf");
 }
 .caracteristicas-pago, .caracteristicas, .boton-comprar, .colores-selector, .grupo-colores, .texto-descripcion, #section-descripcion-producto, .item-seccion-productos, #section-productos, .items-contacto, #section-contacto, .proceso-4, .imagen-conocenos, #section-conocenos, #Tips-section, .section-compra, .contenedor-item, .bloque-fotos, #footer section a i, #footer section a, #footer section, #footer {
   display: flex;
@@ -74,7 +86,11 @@
 
 @font-face {
   font-family: Roboto-regular;
-  src: url("Roboto/Roboto-Regular.ttf");
+  src: url("../../Roboto/Roboto-Regular.ttf");
+}
+@font-face {
+  font-family: Roboto-bold;
+  src: url("../Roboto/Roboto-Bold.ttf");
 }
 header nav div {
   display: flex;
@@ -104,7 +120,11 @@ header nav div ul li a:hover {
 
 @font-face {
   font-family: Roboto-regular;
-  src: url("Roboto/Roboto-Regular.ttf");
+  src: url("../../Roboto/Roboto-Regular.ttf");
+}
+@font-face {
+  font-family: Roboto-bold;
+  src: url("../Roboto/Roboto-Bold.ttf");
 }
 .caracteristicas-pago, .caracteristicas, .boton-comprar, .colores-selector, .grupo-colores, .texto-descripcion, #section-descripcion-producto, .item-seccion-productos, #section-productos, .items-contacto, #section-contacto, .proceso-4, .imagen-conocenos, #section-conocenos, #Tips-section, .section-compra, .contenedor-item, .bloque-fotos, #footer, #footer section, #footer section a, #footer section a i {
   display: flex;
@@ -344,7 +364,11 @@ header nav div ul li a:hover {
 
 @font-face {
   font-family: Roboto-regular;
-  src: url("Roboto/Roboto-Regular.ttf");
+  src: url("../../Roboto/Roboto-Regular.ttf");
+}
+@font-face {
+  font-family: Roboto-bold;
+  src: url("../Roboto/Roboto-Bold.ttf");
 }
 .caracteristicas-pago, .caracteristicas, .boton-comprar, .colores-selector, .grupo-colores, .texto-descripcion, #section-descripcion-producto, .item-seccion-productos, #section-productos, .items-contacto, #section-contacto, .proceso-4, .imagen-conocenos, #section-conocenos, #footer, #footer section, #footer section a, #footer section a i, .bloque-fotos, .contenedor-item, .section-compra, #Tips-section {
   display: flex;
@@ -779,7 +803,11 @@ header nav div ul li a:hover {
 
 @font-face {
   font-family: Roboto-regular;
-  src: url("Roboto/Roboto-Regular.ttf");
+  src: url("../../Roboto/Roboto-Regular.ttf");
+}
+@font-face {
+  font-family: Roboto-bold;
+  src: url("../Roboto/Roboto-Bold.ttf");
 }
 .caracteristicas-pago, .caracteristicas, .boton-comprar, .colores-selector, .grupo-colores, .texto-descripcion, #section-descripcion-producto, .item-seccion-productos, #section-productos, .items-contacto, #section-contacto, #footer, #footer section, #footer section a, #footer section a i, .bloque-fotos, .contenedor-item, .section-compra, #Tips-section, #section-conocenos, .imagen-conocenos, .proceso-4 {
   display: flex;
@@ -914,11 +942,19 @@ header nav div ul li a:hover {
 
 @font-face {
   font-family: Roboto-regular;
-  src: url("Roboto/Roboto-Regular.ttf");
+  src: url("../../Roboto/Roboto-Regular.ttf");
+}
+@font-face {
+  font-family: Roboto-bold;
+  src: url("../Roboto/Roboto-Bold.ttf");
 }
 .caracteristicas-pago, .caracteristicas, .boton-comprar, .colores-selector, .grupo-colores, .texto-descripcion, #section-descripcion-producto, .item-seccion-productos, #section-productos, #footer, #footer section, #footer section a, #footer section a i, .bloque-fotos, .contenedor-item, .section-compra, #Tips-section, #section-conocenos, .imagen-conocenos, .proceso-4, #section-contacto, .items-contacto {
   display: flex;
   justify-content: center;
+}
+
+a {
+  text-decoration: none;
 }
 
 #section-productos {
@@ -974,21 +1010,30 @@ header nav div ul li a:hover {
 .imagen-seccion-productos {
   width: 100%;
   border-radius: 1em;
-  transition: all 0.5s;
+  transition: all 0.3s;
 }
 
 /*animacion*/
 .imagen-seccion-productos:hover {
-  transform: scale(1.1);
+  transform: scale(1.05);
 }
 
 .texto-seccion-productos {
+  font-size: 1.5em;
   margin-top: 1em;
+  color: black;
+}
+.texto-seccion-productos:hover {
+  font-family: "Roboto-Bold";
 }
 
 @font-face {
   font-family: Roboto-regular;
-  src: url("Roboto/Roboto-Regular.ttf");
+  src: url("../../Roboto/Roboto-Regular.ttf");
+}
+@font-face {
+  font-family: Roboto-bold;
+  src: url("../Roboto/Roboto-Bold.ttf");
 }
 .caracteristicas-pago, .caracteristicas, .boton-comprar, .colores-selector, .grupo-colores, .texto-descripcion, #section-descripcion-producto, #footer, #footer section, #footer section a, #footer section a i, .bloque-fotos, .contenedor-item, .section-compra, #Tips-section, #section-conocenos, .imagen-conocenos, .proceso-4, #section-contacto, .items-contacto, #section-productos, .item-seccion-productos {
   display: flex;
@@ -1125,10 +1170,6 @@ header nav div ul li a:hover {
   margin-bottom: 30px;
 }
 
-@font-face {
-  font-family: Roboto-regular;
-  src: url("Roboto/Roboto-Regular.ttf");
-}
 #footer, #footer section, #footer section a, #footer section a i, .bloque-fotos, .contenedor-item, .section-compra, #Tips-section, #section-conocenos, .imagen-conocenos, .proceso-4, #section-contacto, .items-contacto, #section-productos, .item-seccion-productos, #section-descripcion-producto, .texto-descripcion, .grupo-colores, .colores-selector, .boton-comprar, .caracteristicas, .caracteristicas-pago {
   display: flex;
   justify-content: center;

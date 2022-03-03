@@ -12,8 +12,15 @@ $font-size-1: 1em;
 
 @font-face {
     font-family: Roboto-regular;
-    src: url("Roboto/Roboto-Regular.ttf");
+    src: url("../../Roboto/Roboto-Regular.ttf");
 }
 
 $fuente-regular: "Roboto-regular";
+
+@font-face {
+    font-family: Roboto-bold;
+    src: url("../Roboto/Roboto-Bold.ttf");
+}
+
+$fuente-regular: "Roboto-bold";
 

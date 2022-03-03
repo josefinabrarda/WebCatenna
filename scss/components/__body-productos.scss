@@ -1,6 +1,9 @@
 @import "../base/variables.scss";
 @import "../base/extend.scss";
 
+a {
+    text-decoration: none;}
+
 #section-productos {
     margin-top: 200px;
     @extend %disposicion;
@@ -54,14 +57,17 @@
 .imagen-seccion-productos {
     width: 100%;
     border-radius: 1em;
-    transition: all 0.5s;
+    transition: all 0.3s;
 }
 
 /*animacion*/
 .imagen-seccion-productos:hover {
-    transform: scale(1.1);
+    transform: scale(1.05);
 }
 
 .texto-seccion-productos {
+    font-size: 1.5em;
     margin-top: 1em;
+    color: black;
+    &:hover {font-family: "Roboto-Bold";}
 }

@@ -200,7 +200,7 @@ header nav div ul li a:hover {
   width: 60%;
   display: grid;
   grid-template-columns: 1fr;
-  grid-template-rows: 1/2fr;
+  grid-template-rows: 1/2 fr;
   gap: 20px 0;
   text-align: center;
 }
@@ -220,6 +220,7 @@ header nav div ul li a:hover {
 .grid-compra {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: o;
   gap: 30px;
 }
 @media screen and (min-width: 481px) and (max-width: 990px) {
@@ -236,6 +237,7 @@ header nav div ul li a:hover {
 .grid-pago {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: o;
 }
 @media screen and (min-width: 481px) and (max-width: 990px) {
   .grid-pago {

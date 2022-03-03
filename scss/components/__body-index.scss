@@ -1,5 +1,6 @@
 @import "../base/variables.scss";
 @import "../base/extend.scss";
+@import "../base/mixins.scss";
 
 
 .ubicacion-navbar {
@@ -103,9 +104,7 @@
 
 .grid-general {
     width: 60%;
-    display: grid;
-    grid-template-columns:1fr ;
-    grid-template-rows: 1/2fr;
+    @include grilla (grid, 1fr, 1/2 fr);
     gap: 20px 0;
     text-align: center;
 
@@ -123,8 +122,7 @@
 
 
 .grid-compra {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
+    @include grilla (grid, repeat(3, 1fr), o);
     gap: 30px;
 
     @media screen and (min-width: 481px) and (max-width: 990px) {
@@ -138,8 +136,7 @@
 
 
 .grid-pago {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
+    @include grilla (grid, repeat(3, 1fr), o);
 
     @media screen and (min-width: 481px) and (max-width: 990px) {
         display:flex;
@@ -193,9 +190,7 @@
 
 .grid-tip {
     width: 60%;
-    display: grid;
-    grid-template-columns:repeat(4, 1fr);
-    grid-template-rows: repeat(2, 1fr);
+    @include grilla (grid, repeat(4, 1fr), repeat(2, 1fr));
     grid-gap: 40px 35px;
     margin: 50px 0;
     text-align: center;

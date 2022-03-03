@@ -5,6 +5,7 @@
 @import url("Roboto/Roboto-Bold.ttf");
 @import url("Roboto/Roboto-Bold.ttf");
 @import url("Roboto/Roboto-Bold.ttf");
+@import url("Roboto/Roboto-Bold.ttf");
 #footer {
   width: 100%;
   background-color: black;
@@ -15,22 +16,7 @@
   align-items: center;
   flex-direction: column;
 }
-
-/*icono whatsapp*/
-.position-whatsapp {
-  position: fixed;
-  right: 2em;
-  bottom: 2.5em;
-}
-@media screen and (max-width: 480px) {
-  .position-whatsapp {
-    right: 1em;
-    bottom: 1em;
-  }
-}
-
-/*seguinos en las redes*/
-.titulo-footer {
+#footer h3 {
   display: flex;
   color: white;
   margin-bottom: 15px;
@@ -38,76 +24,90 @@
   font-size: 1em;
 }
 @media screen and (max-width: 480px) {
-  .titulo-footer {
+  #footer h3 {
     font-size: 0.8em;
     margin: 0;
     padding-bottom: 25px;
   }
 }
 @media screen and (min-width: 481px) and (max-width: 990px) {
-  .titulo-footer {
+  #footer h3 {
     font-size: 1em;
   }
 }
-
-/*icono instagram y facebook*/
-.bloque-footer {
+#footer section {
   display: flex;
   justify-content: center;
 }
-
-.item-footer {
+#footer section a {
+  display: flex;
+  justify-content: center;
+}
+#footer section a i {
+  display: flex;
+  justify-content: center;
+}
+#footer section a i img {
   padding-right: 15px;
 }
 @media screen and (max-width: 480px) {
-  .item-footer {
+  #footer section a i img {
     padding-right: 0px;
     width: 50%;
   }
 }
-
+#footer div {
+  position: fixed;
+  right: 2em;
+  bottom: 2.5em;
+}
 @media screen and (max-width: 480px) {
-  .item-whatsapp {
+  #footer div {
+    right: 1em;
+    bottom: 1em;
+  }
+}
+@media screen and (max-width: 480px) {
+  #footer div a {
     display: flex;
     justify-content: flex-end;
   }
 }
-
 @media screen and (max-width: 480px) {
-  .item-whatsapp-size {
+  #footer div a i {
+    display: flex;
+    justify-content: flex-end;
+  }
+}
+@media screen and (max-width: 480px) {
+  #footer div a i img {
     width: 50%;
   }
 }
 
-@media screen and (min-width: 481px) and (max-width: 990px) {
-  .icono-whatsapp-resize {
-    width: 30%;
-  }
-}
-
-nav div {
+header nav div {
   display: flex;
   flex-direction: column;
 }
 @media screen and (min-width: 481px) and (max-width: 990px) {
-  nav div {
+  header nav div {
     display: flex;
     flex-direction: row;
     align-items: center;
   }
 }
 @media screen and (max-width: 480px) {
-  nav div {
+  header nav div {
     display: inline;
     display: flex;
     flex-direction: row;
     align-items: center;
   }
 }
-nav div ul li a {
+header nav div ul li a {
   transition: all 0s;
 }
-nav div ul li a:hover {
+header nav div ul li a:hover {
   font-family: "Roboto-bold";
 }
 

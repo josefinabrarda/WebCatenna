@@ -6,13 +6,16 @@
 @import url("Roboto/Roboto-Bold.ttf");
 @import url("Roboto/Roboto-Bold.ttf");
 @import url("Roboto/Roboto-Bold.ttf");
+.caracteristicas-pago, .caracteristicas, .boton-comprar, .colores-selector, .grupo-colores, .texto-descripcion, #section-descripcion-producto, .item-seccion-productos, #section-productos, .items-contacto, #section-contacto, .proceso-4, .imagen-conocenos, #section-conocenos, #Tips-section, .section-compra, .contenedor-item, .bloque-fotos, #Seccion-2, #footer section a i, #footer section a, #footer section, #footer {
+  display: flex;
+  justify-content: center;
+}
+
 #footer {
   width: 100%;
   background-color: black;
   padding-top: 20px;
   padding-bottom: 20px;
-  display: flex;
-  justify-content: center;
   align-items: center;
   flex-direction: column;
 }
@@ -34,18 +37,6 @@
   #footer h3 {
     font-size: 1em;
   }
-}
-#footer section {
-  display: flex;
-  justify-content: center;
-}
-#footer section a {
-  display: flex;
-  justify-content: center;
-}
-#footer section a i {
-  display: flex;
-  justify-content: center;
 }
 #footer section a i img {
   padding-right: 15px;
@@ -111,6 +102,11 @@ header nav div ul li a:hover {
   font-family: "Roboto-bold";
 }
 
+.caracteristicas-pago, .caracteristicas, .boton-comprar, .colores-selector, .grupo-colores, .texto-descripcion, #section-descripcion-producto, .item-seccion-productos, #section-productos, .items-contacto, #section-contacto, .proceso-4, .imagen-conocenos, #section-conocenos, #Tips-section, .section-compra, .contenedor-item, .bloque-fotos, #Seccion-2, #footer, #footer section, #footer section a, #footer section a i {
+  display: flex;
+  justify-content: center;
+}
+
 @media screen and (min-width: 481px) and (max-width: 990px) {
   .ubicacion-navbar {
     display: flex;
@@ -152,15 +148,11 @@ header nav div ul li a:hover {
 /*FIN SECCION 1*/
 /*INICIO SECCION 2*/
 #Seccion-2 {
-  display: flex;
-  justify-content: center;
   margin: 40px 0;
 }
 
 .bloque-fotos {
   width: 60%;
-  display: flex;
-  justify-content: center;
   flex-direction: row;
 }
 @media screen and (min-width: 481px) and (max-width: 990px) {
@@ -174,11 +166,6 @@ header nav div ul li a:hover {
     width: 80%;
     flex-wrap: wrap;
   }
-}
-
-.contenedor-item {
-  display: flex;
-  justify-content: center;
 }
 
 .item-foto {
@@ -204,8 +191,6 @@ header nav div ul li a:hover {
 /*como comprar*/
 .section-compra {
   width: 100%;
-  display: flex;
-  justify-content: center;
   background-color: #ececec;
   padding-bottom: 20px;
   padding-top: 30px;
@@ -299,8 +284,6 @@ header nav div ul li a:hover {
 /*INICIO SECCION 4 TIPS*/
 /*Banner*/
 #Tips-section {
-  display: flex;
-  justify-content: center;
   flex-wrap: wrap;
   margin-top: 50px;
 }
@@ -349,11 +332,14 @@ header nav div ul li a:hover {
   }
 }
 
+.caracteristicas-pago, .caracteristicas, .boton-comprar, .colores-selector, .grupo-colores, .texto-descripcion, #section-descripcion-producto, .item-seccion-productos, #section-productos, .items-contacto, #section-contacto, .proceso-4, .imagen-conocenos, #section-conocenos, #footer, #footer section, #footer section a, #footer section a i, #Seccion-2, .bloque-fotos, .contenedor-item, .section-compra, #Tips-section {
+  display: flex;
+  justify-content: center;
+}
+
 /*Inicio Banner presentacion*/
 #section-conocenos {
   margin-top: 200px;
-  display: flex;
-  justify-content: center;
   flex-direction: column;
   align-items: center;
   width: 100%;
@@ -378,8 +364,6 @@ header nav div ul li a:hover {
 
 .imagen-conocenos {
   width: 100%;
-  display: flex;
-  justify-content: center;
 }
 
 .texto-conocenos {
@@ -690,8 +674,6 @@ header nav div ul li a:hover {
 }
 
 .proceso-4 {
-  display: flex;
-  justify-content: center;
   z-index: -1;
   width: 100%;
 }
@@ -781,9 +763,12 @@ header nav div ul li a:hover {
   }
 }
 
-#section-contacto {
+.caracteristicas-pago, .caracteristicas, .boton-comprar, .colores-selector, .grupo-colores, .texto-descripcion, #section-descripcion-producto, .item-seccion-productos, #section-productos, .items-contacto, #section-contacto, #footer, #footer section, #footer section a, #footer section a i, #Seccion-2, .bloque-fotos, .contenedor-item, .section-compra, #Tips-section, #section-conocenos, .imagen-conocenos, .proceso-4 {
   display: flex;
   justify-content: center;
+}
+
+#section-contacto {
   margin-top: 150px;
 }
 @media screen and (max-width: 480px) {
@@ -874,9 +859,7 @@ header nav div ul li a:hover {
 }
 
 .items-contacto {
-  display: flex;
   flex-direction: row;
-  justify-content: center;
   margin-bottom: 10px;
 }
 @media screen and (max-width: 480px) {
@@ -911,10 +894,13 @@ header nav div ul li a:hover {
   transform: scale(1.05);
 }
 
-#section-productos {
-  margin-top: 200px;
+.caracteristicas-pago, .caracteristicas, .boton-comprar, .colores-selector, .grupo-colores, .texto-descripcion, #section-descripcion-producto, .item-seccion-productos, #section-productos, #footer, #footer section, #footer section a, #footer section a i, #Seccion-2, .bloque-fotos, .contenedor-item, .section-compra, #Tips-section, #section-conocenos, .imagen-conocenos, .proceso-4, #section-contacto, .items-contacto {
   display: flex;
   justify-content: center;
+}
+
+#section-productos {
+  margin-top: 200px;
   flex-direction: column;
   align-items: center;
   width: 100%;
@@ -959,8 +945,6 @@ header nav div ul li a:hover {
 
 .item-seccion-productos {
   width: 100%;
-  display: flex;
-  justify-content: center;
   flex-direction: column;
   align-items: center;
 }
@@ -980,17 +964,18 @@ header nav div ul li a:hover {
   margin-top: 1em;
 }
 
-#section-descripcion-producto {
+.caracteristicas-pago, .caracteristicas, .boton-comprar, .colores-selector, .grupo-colores, .texto-descripcion, #section-descripcion-producto, #footer, #footer section, #footer section a, #footer section a i, #Seccion-2, .bloque-fotos, .contenedor-item, .section-compra, #Tips-section, #section-conocenos, .imagen-conocenos, .proceso-4, #section-contacto, .items-contacto, #section-productos, .item-seccion-productos {
   display: flex;
   justify-content: center;
+}
+
+#section-descripcion-producto {
   flex-direction: column;
   align-items: center;
   margin-top: 200px;
 }
 
 .texto-descripcion {
-  display: flex;
-  justify-content: center;
   flex-direction: column;
   align-items: center;
   text-align: center;
@@ -1045,14 +1030,7 @@ header nav div ul li a:hover {
 }
 
 /*inicio iconos colores*/
-.grupo-colores {
-  display: flex;
-  justify-content: center;
-}
-
 .colores-selector {
-  display: flex;
-  justify-content: center;
   align-items: center;
   margin: 30px 0;
 }
@@ -1096,8 +1074,6 @@ header nav div ul li a:hover {
   color: var(--Tipografia-blanca);
   border-radius: 0.6vw;
   padding: 0.5vw;
-  display: flex;
-  justify-content: center;
   width: 30%;
   margin: 15px 0;
   transition: all 0.5s;
@@ -1111,20 +1087,21 @@ header nav div ul li a:hover {
 }
 
 .caracteristicas {
-  display: flex;
-  justify-content: center;
   flex-direction: column;
   align-items: center;
   text-align: center;
 }
 
 .caracteristicas-pago {
-  display: flex;
-  justify-content: center;
   flex-direction: column;
   align-items: center;
   text-align: center;
   margin-bottom: 30px;
+}
+
+#footer, #footer section, #footer section a, #footer section a i, #Seccion-2, .bloque-fotos, .contenedor-item, .section-compra, #Tips-section, #section-conocenos, .imagen-conocenos, .proceso-4, #section-contacto, .items-contacto, #section-productos, .item-seccion-productos, #section-descripcion-producto, .texto-descripcion, .grupo-colores, .colores-selector, .boton-comprar, .caracteristicas, .caracteristicas-pago {
+  display: flex;
+  justify-content: center;
 }
 
 /*# sourceMappingURL=style.css.map */

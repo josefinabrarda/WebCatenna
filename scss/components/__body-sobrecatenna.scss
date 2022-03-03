@@ -1,10 +1,10 @@
 @import "../base/variables.scss";
+@import "../base/extend.scss";
 
 /*Inicio Banner presentacion*/
 #section-conocenos {
     margin-top: 200px;
-    display: flex;
-    justify-content: center;
+    @extend %disposicion;
     flex-direction: column;
     align-items: center;
     width:100%;
@@ -28,8 +28,7 @@
 
 .imagen-conocenos {
     width: 100%;
-    display: flex;
-    justify-content: center;
+    @extend %disposicion;
 }
 
 
@@ -327,8 +326,7 @@
 }
 
 .proceso-4 {
-    display: flex;
-    justify-content: center;
+    @extend %disposicion;
     z-index: -1;
     width: 100%;
 }

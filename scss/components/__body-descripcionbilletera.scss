@@ -1,16 +1,15 @@
 @import "../base/variables.scss";
+@import "../base/extend.scss";
 
 #section-descripcion-producto {
-    display: flex;
-    justify-content: center;
+    @extend %disposicion;
     flex-direction: column;
     align-items: center;
     margin-top: 200px;
     }
     
     .texto-descripcion {
-    display: flex;
-    justify-content: center;
+    @extend %disposicion;
     flex-direction: column;
     align-items: center;
     text-align: center;
@@ -64,13 +63,11 @@
     /*inicio iconos colores*/
     
     .grupo-colores {
-    display: flex;
-    justify-content: center;
+    @extend %disposicion;
     }
 
     .colores-selector {
-    display: flex;
-    justify-content: center;
+    @extend %disposicion;
     align-items: center;
     margin: 30px 0;
     }
@@ -116,8 +113,7 @@
     color: var(--Tipografia-blanca);
     border-radius: 0.6vw;
     padding: 0.5vw;
-    display: flex;
-    justify-content: center;
+    @extend %disposicion;
     width: 30%;
     margin: 15px 0;
     transition: all 0.5s;
@@ -131,8 +127,7 @@
     
     
     .caracteristicas {
-    display: flex;
-    justify-content: center;
+    @extend %disposicion;
     flex-direction: column;
     align-items: center;
     text-align: center;
@@ -140,8 +135,7 @@
     
     
     .caracteristicas-pago {
-    display: flex;
-    justify-content: center;
+    @extend %disposicion;
     flex-direction: column;
     align-items: center;
     text-align: center;

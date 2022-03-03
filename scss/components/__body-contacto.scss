@@ -1,9 +1,9 @@
 @import "../base/variables.scss";
+@import "../base/extend.scss";
 
 
     #section-contacto {
-    display: flex;
-    justify-content: center;
+    @extend %disposicion;
     margin-top: 150px;
 
     @media screen and (max-width: 480px) {
@@ -89,9 +89,8 @@
     
 
     .items-contacto {
-    display: flex;
+    @extend %disposicion;
     flex-direction: row;
-    justify-content: center;
     margin-bottom: 10px;
 
     @media screen and (max-width: 480px) {

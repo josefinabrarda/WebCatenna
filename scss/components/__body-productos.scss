@@ -1,9 +1,9 @@
 @import "../base/variables.scss";
+@import "../base/extend.scss";
 
 #section-productos {
     margin-top: 200px;
-    display: flex;
-    justify-content: center;
+    @extend %disposicion;
     flex-direction: column;
     align-items: center;
     width:100%;
@@ -45,8 +45,7 @@
 
 .item-seccion-productos {
     width: 100%;
-    display: flex;
-    justify-content: center;
+    @extend %disposicion;
     flex-direction: column;
     align-items: center;
 }

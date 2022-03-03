@@ -3,6 +3,8 @@
 @import "../base/mixins.scss";
 
 
+
+
 .ubicacion-navbar {
     @media screen and (min-width: 481px) and (max-width: 990px) {
         display: flex;
@@ -46,7 +48,9 @@
 /*INICIO SECCION 2*/
 
 #Seccion-2 {
-    @extend %disposicion;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
     margin: 40px 0;
 }
 
@@ -55,6 +59,7 @@
     width: 60%;
     @extend %disposicion;
    flex-direction: row;
+   margin-bottom: 35px;
 
    @media screen and (min-width: 481px) and (max-width: 990px) {
     width: 90%;

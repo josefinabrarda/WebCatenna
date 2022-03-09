@@ -1056,6 +1056,16 @@ a {
 .carrusel-width {
   width: 30%;
 }
+@media screen and (max-width: 480px) {
+  .carrusel-width {
+    width: 100%;
+  }
+}
+@media screen and (min-width: 481px) and (max-width: 990px) {
+  .carrusel-width {
+    width: 100%;
+  }
+}
 
 /*inicio iconos colores*/
 .colores-selector {
@@ -1093,6 +1103,16 @@ a {
 
 .circulo-nude {
   background-color: #dfcfc5;
+  width: 2em;
+  height: 2em;
+  border-radius: 50%;
+  margin: 0 10px;
+  transition: all 0.5s;
+}
+
+.circulo-blanco {
+  background-color: white;
+  border: 2px solid black;
   width: 2em;
   height: 2em;
   border-radius: 50%;

@@ -1,11 +1,11 @@
 @import "../scss/base/variables.scss";
+@import "../scss/base/extend.scss";
+@import "../scss/base/mixins.scss";
+@import "../scss/base/maps.scss";
 @import "components/__footer";
 @import "components/__header";
 @import "components/__body-index";
-@import "components/_body-sobrecatenna";
-@import "components/__body-contacto";
 @import "components/_body-productos";
 @import "components/_body-descripcionproductos";
-@import "../scss/base/maps.scss";
-@import "../scss/base/extend.scss";
-@import "../scss/base/mixins.scss";
+@import "components/_body-sobrecatenna";
+@import "components/__body-contacto";

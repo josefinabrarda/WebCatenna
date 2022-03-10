@@ -6,6 +6,11 @@
   font-family: Roboto-bold;
   src: url("../Roboto/Roboto-Bold.ttf");
 }
+.items-contacto, #section-contacto, .proceso-4, .imagen-conocenos, #section-conocenos, .caracteristicas-pago, .caracteristicas, .boton-comprar, .colores-selector, .grupo-colores, .texto-descripcion, #section-descripcion-producto, .item-seccion-productos, #section-productos, #Tips-section, .section-compra, .contenedor-item, .bloque-fotos, #footer section a i, #footer section a, #footer section, #footer {
+  display: flex;
+  justify-content: center;
+}
+
 @font-face {
   font-family: Roboto-regular;
   src: url("../../Roboto/Roboto-Regular.ttf");
@@ -14,7 +19,7 @@
   font-family: Roboto-bold;
   src: url("../Roboto/Roboto-Bold.ttf");
 }
-.caracteristicas-pago, .caracteristicas, .boton-comprar, .colores-selector, .grupo-colores, .texto-descripcion, #section-descripcion-producto, .item-seccion-productos, #section-productos, .items-contacto, #section-contacto, .proceso-4, .imagen-conocenos, #section-conocenos, #Tips-section, .section-compra, .contenedor-item, .bloque-fotos, #footer section a i, #footer section a, #footer section, #footer {
+.items-contacto, #section-contacto, .proceso-4, .imagen-conocenos, #section-conocenos, .caracteristicas-pago, .caracteristicas, .boton-comprar, .colores-selector, .grupo-colores, .texto-descripcion, #section-descripcion-producto, .item-seccion-productos, #section-productos, #Tips-section, .section-compra, .contenedor-item, .bloque-fotos, #footer section a i, #footer section a, #footer section, #footer {
   display: flex;
   justify-content: center;
 }
@@ -126,7 +131,7 @@ header nav div ul li a:hover {
   font-family: Roboto-bold;
   src: url("../Roboto/Roboto-Bold.ttf");
 }
-.caracteristicas-pago, .caracteristicas, .boton-comprar, .colores-selector, .grupo-colores, .texto-descripcion, #section-descripcion-producto, .item-seccion-productos, #section-productos, .items-contacto, #section-contacto, .proceso-4, .imagen-conocenos, #section-conocenos, #Tips-section, .section-compra, .contenedor-item, .bloque-fotos, #footer, #footer section, #footer section a, #footer section a i {
+.items-contacto, #section-contacto, .proceso-4, .imagen-conocenos, #section-conocenos, .caracteristicas-pago, .caracteristicas, .boton-comprar, .colores-selector, .grupo-colores, .texto-descripcion, #section-descripcion-producto, .item-seccion-productos, #section-productos, #Tips-section, .section-compra, .contenedor-item, .bloque-fotos, #footer, #footer section, #footer section a, #footer section a i {
   display: flex;
   justify-content: center;
 }
@@ -375,7 +380,230 @@ header nav div ul li a:hover {
   font-family: Roboto-bold;
   src: url("../Roboto/Roboto-Bold.ttf");
 }
-.caracteristicas-pago, .caracteristicas, .boton-comprar, .colores-selector, .grupo-colores, .texto-descripcion, #section-descripcion-producto, .item-seccion-productos, #section-productos, .items-contacto, #section-contacto, .proceso-4, .imagen-conocenos, #section-conocenos, #footer, #footer section, #footer section a, #footer section a i, .bloque-fotos, .contenedor-item, .section-compra, #Tips-section {
+.items-contacto, #section-contacto, .proceso-4, .imagen-conocenos, #section-conocenos, .caracteristicas-pago, .caracteristicas, .boton-comprar, .colores-selector, .grupo-colores, .texto-descripcion, #section-descripcion-producto, .item-seccion-productos, #section-productos, #footer, #footer section, #footer section a, #footer section a i, .bloque-fotos, .contenedor-item, .section-compra, #Tips-section {
+  display: flex;
+  justify-content: center;
+}
+
+a {
+  text-decoration: none;
+}
+
+#section-productos {
+  margin-top: 200px;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+}
+@media screen and (max-width: 480px) {
+  #section-productos {
+    margin-top: 230px;
+  }
+}
+
+.titulo-productos {
+  margin-bottom: 30px;
+}
+
+.grid-section-productos {
+  width: 70%;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  gap: 30px;
+  margin-bottom: 50px;
+  justify-content: center;
+}
+@media screen and (min-width: 481px) and (max-width: 990px) {
+  .grid-section-productos {
+    width: 70%;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    gap: 30px;
+    margin-bottom: 50px;
+    justify-content: center;
+  }
+}
+@media screen and (max-width: 480px) {
+  .grid-section-productos {
+    width: 70%;
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(6, 1fr);
+  }
+}
+
+.item-seccion-productos {
+  width: 100%;
+  flex-direction: column;
+  align-items: center;
+}
+
+.imagen-seccion-productos {
+  width: 100%;
+  border-radius: 1em;
+  transition: all 0.3s;
+}
+
+/*animacion*/
+.imagen-seccion-productos:hover {
+  transform: scale(1.05);
+}
+
+.texto-seccion-productos {
+  font-size: 1.5em;
+  margin-top: 1em;
+  color: black;
+}
+.texto-seccion-productos:hover {
+  font-family: "Roboto-Bold";
+}
+
+@font-face {
+  font-family: Roboto-regular;
+  src: url("../../Roboto/Roboto-Regular.ttf");
+}
+@font-face {
+  font-family: Roboto-bold;
+  src: url("../Roboto/Roboto-Bold.ttf");
+}
+.items-contacto, #section-contacto, .proceso-4, .imagen-conocenos, #section-conocenos, .caracteristicas-pago, .caracteristicas, .boton-comprar, .colores-selector, .grupo-colores, .texto-descripcion, #section-descripcion-producto, #footer, #footer section, #footer section a, #footer section a i, .bloque-fotos, .contenedor-item, .section-compra, #Tips-section, #section-productos, .item-seccion-productos {
+  display: flex;
+  justify-content: center;
+}
+
+#section-descripcion-producto {
+  flex-direction: column;
+  align-items: center;
+  margin-top: 200px;
+}
+@media screen and (max-width: 480px) {
+  #section-descripcion-producto {
+    margin-top: 150px;
+  }
+}
+
+.texto-descripcion {
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  margin: 20px 0;
+}
+
+.carrusel-width {
+  width: 30%;
+}
+@media screen and (max-width: 480px) {
+  .carrusel-width {
+    width: 100%;
+  }
+}
+@media screen and (min-width: 481px) and (max-width: 990px) {
+  .carrusel-width {
+    width: 100%;
+  }
+}
+
+/*inicio iconos colores*/
+.colores-selector {
+  align-items: center;
+  margin: 30px 0;
+}
+
+.circulo-suela {
+  background-color: #ae8e7b;
+  width: 2em;
+  height: 2em;
+  border-radius: 50%;
+  border: var(--Border-1);
+  margin: 0 10px;
+  transition: all 0.5s;
+}
+
+.circulo-rojo {
+  background-color: #c82f3a;
+  width: 2em;
+  height: 2em;
+  border-radius: 50%;
+  margin: 0 10px;
+  transition: all 0.5s;
+}
+
+.circulo-negro {
+  background-color: black;
+  width: 2em;
+  height: 2em;
+  border-radius: 50%;
+  margin: 0 10px;
+  transition: all 0.5s;
+}
+
+.circulo-nude {
+  background-color: #dfcfc5;
+  width: 2em;
+  height: 2em;
+  border-radius: 50%;
+  margin: 0 10px;
+  transition: all 0.5s;
+}
+
+.circulo-blanco {
+  background-color: white;
+  border: 2px solid black;
+  width: 2em;
+  height: 2em;
+  border-radius: 50%;
+  margin: 0 10px;
+  transition: all 0.5s;
+}
+
+/*animaciones*/
+.circulo-1:hover, .circulo-2:hover, .circulo-3:hover, .boton-comprar:hover, .foto-descripcion:hover {
+  transform: scale(1.2);
+}
+
+/*fin iconos colores*/
+/*Fin corousel*/
+/*Inicio descripcion de producto*/
+.boton-comprar {
+  background-color: var(--background-negro);
+  color: var(--Tipografia-blanca);
+  border-radius: 0.6vw;
+  padding: 0.5vw;
+  width: 30%;
+  margin: 15px 0;
+  transition: all 0.5s;
+}
+@media screen and (max-width: 480px) {
+  .boton-comprar {
+    width: 80%;
+    font-size: smaller;
+    padding: 5px 0;
+  }
+}
+
+.caracteristicas {
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.caracteristicas-pago {
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+@font-face {
+  font-family: Roboto-regular;
+  src: url("../../Roboto/Roboto-Regular.ttf");
+}
+@font-face {
+  font-family: Roboto-bold;
+  src: url("../Roboto/Roboto-Bold.ttf");
+}
+.items-contacto, #section-contacto, .proceso-4, .imagen-conocenos, #section-conocenos, #footer, #footer section, #footer section a, #footer section a i, .bloque-fotos, .contenedor-item, .section-compra, #Tips-section, #section-productos, .item-seccion-productos, #section-descripcion-producto, .texto-descripcion, .grupo-colores, .colores-selector, .boton-comprar, .caracteristicas, .caracteristicas-pago {
   display: flex;
   justify-content: center;
 }
@@ -821,7 +1049,7 @@ header nav div ul li a:hover {
   font-family: Roboto-bold;
   src: url("../Roboto/Roboto-Bold.ttf");
 }
-.caracteristicas-pago, .caracteristicas, .boton-comprar, .colores-selector, .grupo-colores, .texto-descripcion, #section-descripcion-producto, .item-seccion-productos, #section-productos, .items-contacto, #section-contacto, #footer, #footer section, #footer section a, #footer section a i, .bloque-fotos, .contenedor-item, .section-compra, #Tips-section, #section-conocenos, .imagen-conocenos, .proceso-4 {
+.items-contacto, #section-contacto, #footer, #footer section, #footer section a, #footer section a i, .bloque-fotos, .contenedor-item, .section-compra, #Tips-section, #section-productos, .item-seccion-productos, #section-descripcion-producto, .texto-descripcion, .grupo-colores, .colores-selector, .boton-comprar, .caracteristicas, .caracteristicas-pago, #section-conocenos, .imagen-conocenos, .proceso-4 {
   display: flex;
   justify-content: center;
 }
@@ -950,234 +1178,6 @@ header nav div ul li a:hover {
 /*animacion*/
 .boton-enviar:hover {
   transform: scale(1.05);
-}
-
-@font-face {
-  font-family: Roboto-regular;
-  src: url("../../Roboto/Roboto-Regular.ttf");
-}
-@font-face {
-  font-family: Roboto-bold;
-  src: url("../Roboto/Roboto-Bold.ttf");
-}
-.caracteristicas-pago, .caracteristicas, .boton-comprar, .colores-selector, .grupo-colores, .texto-descripcion, #section-descripcion-producto, .item-seccion-productos, #section-productos, #footer, #footer section, #footer section a, #footer section a i, .bloque-fotos, .contenedor-item, .section-compra, #Tips-section, #section-conocenos, .imagen-conocenos, .proceso-4, #section-contacto, .items-contacto {
-  display: flex;
-  justify-content: center;
-}
-
-a {
-  text-decoration: none;
-}
-
-#section-productos {
-  margin-top: 200px;
-  flex-direction: column;
-  align-items: center;
-  width: 100%;
-}
-@media screen and (max-width: 480px) {
-  #section-productos {
-    margin-top: 230px;
-  }
-}
-
-.titulo-productos {
-  margin-bottom: 30px;
-}
-
-.grid-section-productos {
-  width: 70%;
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  grid-template-rows: repeat(2, 1fr);
-  gap: 30px;
-  margin-bottom: 50px;
-  justify-content: center;
-}
-@media screen and (min-width: 481px) and (max-width: 990px) {
-  .grid-section-productos {
-    width: 70%;
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    grid-template-rows: repeat(3, 1fr);
-    gap: 30px;
-    margin-bottom: 50px;
-    justify-content: center;
-  }
-}
-@media screen and (max-width: 480px) {
-  .grid-section-productos {
-    width: 70%;
-    grid-template-columns: 1fr;
-    grid-template-rows: repeat(6, 1fr);
-  }
-}
-
-.item-seccion-productos {
-  width: 100%;
-  flex-direction: column;
-  align-items: center;
-}
-
-.imagen-seccion-productos {
-  width: 100%;
-  border-radius: 1em;
-  transition: all 0.3s;
-}
-
-/*animacion*/
-.imagen-seccion-productos:hover {
-  transform: scale(1.05);
-}
-
-.texto-seccion-productos {
-  font-size: 1.5em;
-  margin-top: 1em;
-  color: black;
-}
-.texto-seccion-productos:hover {
-  font-family: "Roboto-Bold";
-}
-
-@font-face {
-  font-family: Roboto-regular;
-  src: url("../../Roboto/Roboto-Regular.ttf");
-}
-@font-face {
-  font-family: Roboto-bold;
-  src: url("../Roboto/Roboto-Bold.ttf");
-}
-.caracteristicas-pago, .caracteristicas, .boton-comprar, .colores-selector, .grupo-colores, .texto-descripcion, #section-descripcion-producto, #footer, #footer section, #footer section a, #footer section a i, .bloque-fotos, .contenedor-item, .section-compra, #Tips-section, #section-conocenos, .imagen-conocenos, .proceso-4, #section-contacto, .items-contacto, #section-productos, .item-seccion-productos {
-  display: flex;
-  justify-content: center;
-}
-
-#section-descripcion-producto {
-  flex-direction: column;
-  align-items: center;
-  margin-top: 200px;
-}
-@media screen and (max-width: 480px) {
-  #section-descripcion-producto {
-    margin-top: 150px;
-  }
-}
-
-.texto-descripcion {
-  flex-direction: column;
-  align-items: center;
-  text-align: center;
-  margin: 20px 0;
-}
-
-.carrusel-width {
-  width: 30%;
-}
-@media screen and (max-width: 480px) {
-  .carrusel-width {
-    width: 100%;
-  }
-}
-@media screen and (min-width: 481px) and (max-width: 990px) {
-  .carrusel-width {
-    width: 100%;
-  }
-}
-
-/*inicio iconos colores*/
-.colores-selector {
-  align-items: center;
-  margin: 30px 0;
-}
-
-.circulo-suela {
-  background-color: #ae8e7b;
-  width: 2em;
-  height: 2em;
-  border-radius: 50%;
-  border: var(--Border-1);
-  margin: 0 10px;
-  transition: all 0.5s;
-}
-
-.circulo-rojo {
-  background-color: #c82f3a;
-  width: 2em;
-  height: 2em;
-  border-radius: 50%;
-  margin: 0 10px;
-  transition: all 0.5s;
-}
-
-.circulo-negro {
-  background-color: black;
-  width: 2em;
-  height: 2em;
-  border-radius: 50%;
-  margin: 0 10px;
-  transition: all 0.5s;
-}
-
-.circulo-nude {
-  background-color: #dfcfc5;
-  width: 2em;
-  height: 2em;
-  border-radius: 50%;
-  margin: 0 10px;
-  transition: all 0.5s;
-}
-
-.circulo-blanco {
-  background-color: white;
-  border: 2px solid black;
-  width: 2em;
-  height: 2em;
-  border-radius: 50%;
-  margin: 0 10px;
-  transition: all 0.5s;
-}
-
-/*animaciones*/
-.circulo-1:hover, .circulo-2:hover, .circulo-3:hover, .boton-comprar:hover, .foto-descripcion:hover {
-  transform: scale(1.2);
-}
-
-/*fin iconos colores*/
-/*Fin corousel*/
-/*Inicio descripcion de producto*/
-.boton-comprar {
-  background-color: var(--background-negro);
-  color: var(--Tipografia-blanca);
-  border-radius: 0.6vw;
-  padding: 0.5vw;
-  width: 30%;
-  margin: 15px 0;
-  transition: all 0.5s;
-}
-@media screen and (max-width: 480px) {
-  .boton-comprar {
-    width: 80%;
-    font-size: smaller;
-    padding: 5px 0;
-  }
-}
-
-.caracteristicas {
-  flex-direction: column;
-  align-items: center;
-  text-align: center;
-}
-
-.caracteristicas-pago {
-  flex-direction: column;
-  align-items: center;
-  text-align: center;
-  margin-bottom: 30px;
-}
-
-#footer, #footer section, #footer section a, #footer section a i, .bloque-fotos, .contenedor-item, .section-compra, #Tips-section, #section-conocenos, .imagen-conocenos, .proceso-4, #section-contacto, .items-contacto, #section-productos, .item-seccion-productos, #section-descripcion-producto, .texto-descripcion, .grupo-colores, .colores-selector, .boton-comprar, .caracteristicas, .caracteristicas-pago {
-  display: flex;
-  justify-content: center;
 }
 
 /*# sourceMappingURL=style.css.map */

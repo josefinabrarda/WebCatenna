@@ -380,6 +380,7 @@ header nav div ul li a:hover {
   margin-top: 200px;
   flex-direction: column;
   align-items: center;
+  text-align: center;
   width: 100%;
   position: relative;
 }
@@ -398,6 +399,12 @@ header nav div ul li a:hover {
 
 .titulo-conocenos {
   margin-bottom: 30px;
+}
+@media screen and (max-width: 480px) {
+  .titulo-conocenos {
+    font-size: 0, 1em;
+    margin-top: 30px;
+  }
 }
 
 .imagen-conocenos {
@@ -697,7 +704,7 @@ header nav div ul li a:hover {
 @media screen and (max-width: 480px) {
   .imagen-proceso-3 {
     position: absolute;
-    top: 250%;
+    top: 235%;
     left: 45em;
     width: 50%;
   }
@@ -745,7 +752,7 @@ header nav div ul li a:hover {
   .imagen-proceso-4-a {
     width: 80%;
     position: absolute;
-    top: 1em;
+    top: 0%;
     left: 3em;
   }
 }

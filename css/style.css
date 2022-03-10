@@ -144,6 +144,11 @@ header nav div ul li a:hover {
 .margin-banner-carrusel {
   margin-top: 100px;
 }
+@media screen and (max-width: 480px) {
+  .margin-banner-carrusel {
+    margin-top: 140px;
+  }
+}
 
 .posicion-boton {
   position: relative;
@@ -1051,6 +1056,11 @@ a {
   flex-direction: column;
   align-items: center;
   margin-top: 200px;
+}
+@media screen and (max-width: 480px) {
+  #section-descripcion-producto {
+    margin-top: 150px;
+  }
 }
 
 .texto-descripcion {

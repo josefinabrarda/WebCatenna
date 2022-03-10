@@ -6,6 +6,10 @@
     flex-direction: column;
     align-items: center;
     margin-top: 200px;
+
+    @media screen and (max-width: 480px) {
+        margin-top: 150px;
+    }
     }
     
     .texto-descripcion {

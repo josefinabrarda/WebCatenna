@@ -18,6 +18,10 @@
 /*Banner*/
 .margin-banner-carrusel {
     margin-top: 100px;
+
+    @media screen and (max-width: 480px) {
+        margin-top: 140px;
+        }
 }
 
 .posicion-boton {

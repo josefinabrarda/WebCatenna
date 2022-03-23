@@ -136,6 +136,7 @@ header nav div ul li a:hover {
   justify-content: center;
 }
 
+/*Navbar ubicacion*/
 @media screen and (min-width: 481px) and (max-width: 990px) {
   .ubicacion-navbar {
     display: flex;
@@ -372,6 +373,7 @@ header nav div ul li a:hover {
   }
 }
 
+/*FIN SECCION 4 TIPS*/
 @font-face {
   font-family: Roboto-regular;
   src: url("../../Roboto/Roboto-Regular.ttf");
@@ -405,6 +407,7 @@ a {
   margin-bottom: 30px;
 }
 
+/*grilla productos*/
 .grid-section-productos {
   width: 70%;
   display: grid;
@@ -472,6 +475,7 @@ a {
   justify-content: center;
 }
 
+/*carrusel*/
 #section-descripcion-producto {
   flex-direction: column;
   align-items: center;
@@ -483,6 +487,7 @@ a {
   }
 }
 
+/*Titulo del producto*/
 .texto-descripcion {
   flex-direction: column;
   align-items: center;
@@ -563,7 +568,7 @@ a {
 }
 
 /*fin iconos colores*/
-/*Fin corousel*/
+/*Fin carrusel*/
 /*Inicio descripcion de producto*/
 .boton-comprar {
   background-color: var(--background-negro);
@@ -595,6 +600,7 @@ a {
   margin-bottom: 30px;
 }
 
+/*Fin descripcion de producto*/
 @font-face {
   font-family: Roboto-regular;
   src: url("../../Roboto/Roboto-Regular.ttf");
@@ -1041,6 +1047,7 @@ a {
   }
 }
 
+/*Fin proceso 3 y 4*/
 @font-face {
   font-family: Roboto-regular;
   src: url("../../Roboto/Roboto-Regular.ttf");
@@ -1054,6 +1061,7 @@ a {
   justify-content: center;
 }
 
+/*Seccion 1: Contacto*/
 #section-contacto {
   margin-top: 150px;
 }
@@ -1138,12 +1146,14 @@ a {
   }
 }
 
+/*banner*/
 @media screen and (max-width: 480px) {
   .imagen-contacto {
     width: 130%;
   }
 }
 
+/*iconos redes*/
 .items-contacto {
   flex-direction: row;
   margin-bottom: 10px;

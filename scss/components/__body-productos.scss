@@ -4,7 +4,8 @@
 a {
     text-decoration: none;}
 
-#section-productos {
+
+    #section-productos {
     margin-top: 200px;
     @extend %disposicion;
     flex-direction: column;
@@ -20,6 +21,7 @@ a {
     margin-bottom: 30px;
 }
 
+/*grilla productos*/
 .grid-section-productos {
     width: 70%;
     display: grid;
@@ -45,6 +47,7 @@ a {
         grid-template-rows: repeat(6, 1fr);
         }
 }
+
 
 .item-seccion-productos {
     width: 100%;

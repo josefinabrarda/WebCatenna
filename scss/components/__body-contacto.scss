@@ -2,6 +2,7 @@
 @import "../base/extend.scss";
 
 
+/*Seccion 1: Contacto*/
     #section-contacto {
     @extend %disposicion;
     margin-top: 150px;
@@ -80,13 +81,14 @@
     }
     }
 
+    /*banner*/
     .imagen-contacto {
         @media screen and (max-width: 480px) {
             width: 130%;
         }
     }
     
-
+    /*iconos redes*/
     .items-contacto {
     @extend %disposicion;
     flex-direction: row;
